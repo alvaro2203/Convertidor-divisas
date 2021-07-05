@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Convertidor divisas</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="icon" type="image/png" href="https://img2.freepng.es/20180424/llw/kisspng-foreign-exchange-market-currency-symbol-money-paym-foreign-currency-5adfe26aad06b0.6678614515246219307087.jpg" />
+    
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  </head>
+  <body class="m-4">
+    <h1 class="text-center">Convertidor de divisas</h1>
+    <div class="container">
+        <div class="form-group row mt-5">
+            <div class="col-md-2">
+                <input type="number" name="" id="dinero" class="form-control" placeholder="Cantidad" aria-describedby="helpId">
+                <small id="helpId" class="text-muted">Escribe la cantidad de dinero</small>
+            </div>
+            
+            <div class="col-md-2">
+                <select class="form-control" name="" id="divisa-seleccionada">
+                    <option value="euros">Euros</option>
+                    <option value="libras">Libras</option>
+                    <option value="dolares">Dolares</option>
+                </select>
+                <small id="" class="text-muted">Selecciona la divisa a calcular</small>
+            </div>
+
+            <div class="col-md-2">
+                <select class="form-control" name="" id="divisa-calcular">
+                    <option value="euros">Euros</option>
+                    <option value="libras">Libras</option>
+                    <option value="dolares">Dolares</option>
+                </select>
+                <small id="" class="text-muted">Selecciona la divisa a convertir</small>
+            </div>
+
+            <div class="col-md-2">
+                <button class="btn btn-success text-right" type="button" id="botonConvertir">Convertir</button>
+            </div>
+
+            <div class="col-md-4">
+                <p id="resultado" class="ml-5"></p>
+            </div>
+        </div>
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="app.js" type="module"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
